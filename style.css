@@ -1,0 +1,326 @@
+*^M
+{^M
+        margin: 0;^M
+        padding: 0;^M
+}^M
+.right-menu li^M
+{^M
+        display: inline;^M
+        margin-top: 30px !important;^M
+        ^M
+}^M
+.right-menu li .fa^M
+{^M
+        font-size: 18;^M
+        margin-right: 10px;^M
+        cursor: pointer;^M
+}^M
+.navbar-brand^M
+{^M
+        left: 50%;^M
+        top: 0px;^M
+        transform: translateX(-50%);^M
+        position: absolute;      ^M
+}^M
+.header^M
+{^M
+        background: #f5f6fc;^M
+        margin-bottom: 80px;^M
+}^M
+.navbar^M{^M                                   
+        padding: 0 35px !important;^M 
+}^M                                   
+.navbar-toggler^M                     
+{^M                                   
+        border: none;^M               
+        outline: none;^M              
+        padding: 0;^M                 
+        margin-top: 30px;^M           
+}^M                                   
+.navbar-toggler .fa^M                 
+{^M                                   
+        font-size: 30px;^M            
+        cursor: pointer;^M            
+}^M                                   
+.banner-img^M                         
+{^M                                   
+        margin: 80px 115px;^M         
+        width: 60%;^M                 
+}^M                                   
+.banner-img img^M                     
+{^M                                   
+        width: 100%;^M               
+        margin-bottom: -80px;^M      
+}^M                                  
+ .bamner^M                           
+ {^M                                 
+         position: relative;^M       
+ }^M                                 
+.banner-title^M        
+{^M                                   
+        position: absolute;^M         
+        left: 50%;^M                  
+        top: 20%;^M                   
+}^M                                   
+.banner-title h1^M                    
+{^M                                   
+        font-size: 55px;^M            
+        background: rgba(0,0,0,0.75);^M
+        color: #fff;^M                 
+        line-height: 70px;^M           
+        padding: 0px 10px 0 10px;^M    
+}^M                                    
+/*---------fashion trnds-------------*/^M
+.fashion-trends^M                        
+{^M                                      
+        padding: 100px 0;^M              
+}^M                                      
+.fashion-box^M                           
+{^M                                      
+        margin: 80px 0;^M                
+}^M                                      
+.title-style h1^M                        
+{^M                                      
+        padding: 40px 0;^M               
+}^M                                      
+.title-style^M 
+{^M                                      
+        margin: 0 auto 80px;^M           
+        height: 120px;^M                 
+        width: 80%;^M                    
+        max-width: 700px;^M              
+        background: #fff;^M              
+        position: relative;^M            
+        box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);^M
+}^M                                                
+.title-style::after^M                              
+{^M                                                
+        content: '';^M                             
+        height: 100px;^M                           
+        width: 200px;^M                            
+        background-color: #f992a6;^M               
+        position: absolute;^M                      
+        top: -10px;^M                              
+        left: -10px;^M                             
+        z-index: -1;^M                             
+}^M                                                
+.title-style::before^M                             
+{^M                                                
+        content: '';^M                             
+        height: 100px;^M                           
+        width: 200px;^M                            
+        background-color: #f992a6;^M               
+        position: absolute;^M                      
+        bottom: -10px;^M                           
+        right: -10px;^M                            
+        z-index: -1;^M          
+        }^M                                                                              
+.trnding-img^M                                                                   
+{^M                                                                              
+        position: relative;^M                                                    
+        margin-bottom:: 15px;^M                                                  
+}^M                                                                              
+.trnding-img img^M                                                               
+{^M                                                                              
+        width: 100%;^M                                                           
+}^M                                                                              
+.btn-buy^M                                                                       
+{^M                                                                              
+        width: 150px;^M                                                          
+        padding: 10px 0;^M                                                       
+        outline: none !important;^M                                              
+        border: 0;^M                                                             
+        border-radius: 2px;^M                                                    
+        position: absolute;^M                                                    
+        background: #fff;^M                                                      
+        left: 50%;^M                                                             
+        bottom: 0;^M                                                             
+        transform: translate(-50%,0);^M                                          
+        transition: .5s;^M                                                       
+        opacity: .2;^M                                                           
+        z-index: 1;^M                                                            
+}^M                                                                              
+.trnding-img:hover .btn-buy^M                                                    
+{^M                                                                              
+        transform: translate(-505,50%);^M                                        
+        bottom: 50%;^M    
+                opacity: 1;^M                                                            
+}^M                                                                              
+.overlay^M                                                                       
+{^M                                                                              
+        height: 0;^M                                                             
+        width: 100%;^M                                                           
+        background: red ;^M                                                      
+        position: absolute;^M                                                    
+        top: 0;^M                                                                
+        opacity: 0;^M                                                            
+        transition: .5s;^M                                                       
+}^M                                                                              
+.trnding-img:hover .overlay^M                                                    
+{^M                                                                              
+        opacity: .5;^M                                                           
+        height: 100%;^M                                                          
+}^M                                                                              
+^M                                                                               
+/*------------offer----------------------------------------------------*/^M      
+.offer^M                                                                         
+{^M                                                                              
+    background-image: url({{ url_for ('static', filename = '/images/6.jpg') }});^
+        background-size: cover;^M                                                
+        background-position: center;^M                                           
+        ^M                                                                       
+}^M                                                                              
+.row^M                                                                           
+{^M                                                                              
+        margin: initial !important;^M                                            
+        ^M                           
+        }^M                                                                              
+.subscribe^M                                                                     
+{^M                                                                              
+        max-width: 500px;^M                                                      
+        margin-top: 80px;^M                                                      
+        padding: 60px;^M                                                         
+        background: #ffffff8c;^M                                                 
+        margin-bottom: 20px;^M                                                   
+}^M                                                                              
+.subscribe a^M                                                                   
+{^M                                                                              
+        width: 100px;^M                                                          
+        display: block;^M                                                        
+        color: #fff !important;^M                                                
+        background: black;^M                                                     
+        text-decoration: none !important;^M                                      
+        padding: 5px;^M                                                          
+        text-align: center;^M                                                    
+}^M                                                                              
+.offer img^M                                                                     
+{^M                                                                              
+        width: 300px;^M                                                          
+        height: 400px;^M                                                         
+        margin: -100px;^M                                                        
+        margin-top: 150px;^M                                                     
+}^M                                                                              
+^M                                                                               
+/*------------------fashion-blog----------------------*/^M                       
+.fashion-blog^M            
+{^M                                                                              
+        margin: 250px 0 150px 0;^M                                               
+        ^M                                                                       
+}^M                                                                              
+.blog-img^M                                                                      
+{^M                                                                              
+        margin-top: 50px;^M                                                      
+        height: 300px;^M                                                         
+        width: 300px;^M                                                          
+        display: inline-block;^M                                                 
+}^M                                                                              
+.blog-img img^M                                                                  
+{^M                                                                              
+        width: 100%;^M                                                           
+        height: 100%;^M                                                          
+}^M                                                                              
+.fashion-blog h5^M                                                               
+{^M                                                                              
+        margin-top: 20px;^M                                                      
+        font-weight: 600;^M                                                      
+         ^M                                                                      
+}^M                                                                              
+^M                                                                               
+/*----fashion-brands---------*/^M                                                
+.fashion-brands^M                                                                
+{^M                                                                              
+        margin-bottom: 150px;^M                                                  
+}^M                                                                              
+.brand-logo^M                                                                    
+{^M                       
+       width: 200px;^M                                                          
+        height: 200;^M                                                           
+        background: #fff;^M                                                      
+        border-radius: 50%;^M                                                    
+        margin: 50px auto 30px;^M                                                
+        box-shadow: 0 2px 40px 0 rgba(110,130,208,10 )^M                         
+}^M                                                                              
+.brand-logo img^M                                                                
+{^M                                                                              
+        width: 100px;^M                                                          
+        margin: 50px auto;^M                                                     
+}^M                                                                              
+.fashion-brands P^M                                                              
+{^M                                                                              
+        margin-top: 30px;^M                                                      
+        font-weight: bold; ^M                                                    
+}^M                                                                              
+^M                                                                               
+/*----------footer------*/^M                                                     
+.footer^M                                                                        
+{^M                                                                              
+        margin-top: 150px;^M                                                     
+     background: #f5f6fc;^M                                                      
+}^M                                                                              
+.payment,.insta-img,.app-dnld^M                                                  
+{^M                                                                              
+        margin: 50px auto;^M                                                     
+}^M                                                                              
+.payment img^M                                                                   
+{^M             
+        width: 300px;^M                                                          
+        cursor: pointer;^M                                                       
+}^M                                                                              
+.insta-img img^M                                                                 
+{^M                                                                              
+        width: 75px;^M                                                           
+        padding: 5px;^M                                                          
+        cursor: pointer;^M                                                       
+}^M                                                                              
+.app-dnld img^M                                                                  
+{^M                                                                              
+        width: 200px;^M                                                          
+        height: 100px;;^M                                                        
+}^M                                                                              
+.footer ^M                                                                       
+{^M                                                                              
+        margin-bottom: 50px;^M                                                   
+        ^M                                                                       
+}^M                                                                              
+.footer::before^M                                                                
+{^M                                                                              
+        content: '';^M                                                           
+        width: 70px;^M                                                           
+        height: 3px;^M                                                           
+        background: #4f74e8;^M                                                   
+        top: 75px;^M                                                             
+        position: absolute;^M                                                    
+}^M                                                                              
+.footer-icons^M                                                                  
+{^M                
+        text-align: right;^M                                                     
+}^M                                                                              
+.footer-icons .fa^M                                                              
+{^M                                                                              
+        margin: 0 10px auto;^M                                                   
+        font-size: 20px;^M                                                       
+        cursor: pointer;^M                                                       
+}^M                                                                              
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M          
+
