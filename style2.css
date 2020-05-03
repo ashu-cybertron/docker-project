@@ -1,0 +1,118 @@
+*^M
+{^M
+        margin: 0;^M
+        padding: 0;^M
+}^M
+.hero^M
+{^M
+        height: 100vh;^M
+        width: 100%;^M
+        background-image: url({{ url_for ('static', filename = '/images/sky.jpg')
+        background-position: center;^M
+        position: relative;^M
+        overflow: hidden;^M
+}^M
+.highway^M
+{^M
+        height: 200px;^M
+        width: 500%;^M
+        display: block;^M
+        background-image: url({{ url_for ('static', filename = '/images/road.jpg'
+        position: absolute;^M
+        bottom: 0;^M
+        left: 0;^M
+        right: 0;^M
+        z-index: 1;^M
+        background-repeat: repeat-x;^M
+        animation: highway 5s linear infinite;^M
+}^M
+@keyframes highway^M                                                             
+{^M                                                                              
+        100%{^M                                                                  
+                transform: translatex(-3400px);^M                                
+        }^M                                                                      
+}^M                                                                              
+.city^M                                                                          
+{^M                                                                              
+        height: 250px;^M                                                         
+        width: 500%;^M                                                           
+        display: block;^M                                                        
+        background-image: url({{ url_for ('static', filename = '/images/city.jpg'
+        position: absolute;^M                                                    
+        bottom: 200px;^M                                                         
+        left: 0;^M                                                               
+        right: 0;^M                                                              
+        display: block;^M                                                        
+        z-index: 1;^M                                                            
+        background-repeat: repeat-x;^M                                           
+        animation: city 2s linear infinite;^M                                    
+}^M                                                                              
+@keyframe city^M                                                                 
+{^M                                                                              
+        100%{^M                                                                  
+                transform: translatex(-1400px);^M                                
+        }^M                                                                      
+}^M                                                                              
+.car^M                                                                           
+{^M                                                                              
+        width: 400px;^M                 
+                left: 50%;^M                                                             
+        bottom: 100px;^M                                                         
+        transform: translatex(-50%);^M                                           
+        position: absolute;^M                                                    
+        z-index: 2;^M                                                            
+}^M                                                                              
+.car img^M                                                                       
+{^M                                                                              
+        width: 100%;^M                                                           
+        animation: car 1s linear infinite;^M                                     
+}^M                                                                              
+@keyframe car^M                                                                  
+{^M                                                                              
+        100%{^M                                                                  
+                transform: translateY(-1px);^M                                   
+        }^M                                                                      
+        50%{^M                                                                   
+                transform: translateY(1px);^M                                    
+        }^M                                                                      
+        0%{^M                                                                    
+                transform: translateY(-1px);^M                                   
+        }^M                                                                      
+}^M                                                                              
+.wheel^M                                                                         
+{^M                                                                              
+        left: 50%;^M                                                             
+        bottom: 178px;^M                                                         
+        transform: translatex(-50%);^M                                           
+        position: absolute;^M                                                    
+        z-index: 2;^M           
+        }^M                                                                              
+.wheel img^M                                                                     
+{^M                                                                              
+        width: 72px;^M                                                           
+        height: 72px;^M                                                          
+        animation: wheel 1s linear infinite;^M                                   
+}^M                                                                              
+.back-wheel^M                                                                    
+{^M                                                                              
+        left: -165px;^M                                                          
+        position: absolute;^M                                                    
+}^M                                                                              
+.front-wheel^M                                                                   
+{^M                                                                              
+        left: 80px;^M                                                            
+        position: absolute;^M                                                    
+}^M                                                                              
+@keyframes wheel^M                                                               
+{^M                                                                              
+        100%{^M                                                                  
+                transform: rotate(360deg);^M                                     
+        }^M                                                                      
+}^M                                                                              
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M                                                                               
+^M            
