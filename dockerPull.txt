@@ -1,0 +1,3 @@
+for pull this image from docker hub
+type command 
+docker pull ashucybertron/webflask:v1
