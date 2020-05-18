@@ -72,4 +72,11 @@ python app.py
 goto web browser write url http://0.0.0.0/5500
 now your website running...
 
+
+Or you can easily do this by pulling my created image from docker hub ..
+By "docker pull ashucybertron/webflask:v1"
+And run with this command "docker run -it -p 5500:5000 --name webflask ashucybertron/webflask:v1"
+And you are ready to host your own website locally 
+
+
 i thank to vimal sir who taught to think like this and create something like this ..
